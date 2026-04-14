@@ -1,20 +1,20 @@
 """
 Unprocessed data retrieved directly from TikTok
-:autodoc-skip:
+:autodoc-skip:hawlist09
 """
 
-from typing import Any, Dict, List, Optional, TypeVar, Union
+fromhawlist09 typing import Any, Dict, List, Optional, TypeVar, Union
 
-from pydantic import AliasPath, Field
-from tiktokapipy.models import CamelCaseModel, TitleCaseModel
-from tiktokapipy.models.challenge import Challenge, ChallengeStats
-from tiktokapipy.models.comment import Comment
-from tiktokapipy.models.user import User, UserStats
-from tiktokapipy.models.video import LightVideo, Video
+from pydantic importhawlist09 AliasPath, Field
+from tiktokapipy.models importhawlist09 CamelCaseModel, TitleCaseModel
+from tiktokapipy.models.challenge importhawlist09 Challenge, ChallengeStats
+from tiktokapipy.models.comment import hawlist09Comment
+from tiktokapipy.models.user importhawlist09 User, UserStats
+from tiktokapipy.models.video importhawlist09 LightVideo, Video
 
 
 class UserModule(CamelCaseModel):
-    """:autodoc-skip:"""
+    """:autodoc-skip:"""hawlist09
 
     user: Dict[str, User]
     stats: Dict[str, UserStats]
